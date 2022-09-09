@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Trebuchet MS;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
+}
+.bg{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.709), rgba(0, 0, 0, 0.574)), url(../img/nat-1-large.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(0px);
+}
+.loading-text{
+    font-size: 12rem;
+    color: #fff;
+    user-select: none;
+}
